@@ -1,4 +1,6 @@
-### Hi there 👋
+### Actualmente estoy haciendo un Bootcamp de Full Stack Developer
+
+En este repositorio voy compartiendo los proyectos del día a día durante la realización del Bootcamp.
 
 <!--
 **CarlesJr/CarlesJr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
