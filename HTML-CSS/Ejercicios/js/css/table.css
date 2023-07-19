@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: .875rem;
+}
+table{
+    width: 88%;
+    margin: 5% auto;
+    border-spacing: 0;
+}
+td{
+    padding: .4em .8em;
+}
+tr:first-of-type td{
+    background-color: rgb(39, 122, 176);
+    color: white;
+    text-align: center;
+}
+.even{
+    background-color: rgb(226, 226, 226);
+}
