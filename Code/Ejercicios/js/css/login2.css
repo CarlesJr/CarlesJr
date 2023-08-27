@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 0.785rem;
+}
+body{
+    background-color: #d5eafc;
+}
+div{
+    width: 50%;
+    margin: 3em auto;
+    padding: 2em;
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    background-color: #fff;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+h3{
+    
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calendario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Calendario</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <select name="mes" id="mes">
+                <option value="">Gen</option>
+                <option value="">Febr</option>
+                <option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">Jun</option>
+                <option value="" selected>Jul</option>
+                <option value="">Aug</option>
+                <option value="">Sept</option>
+                <option value="">Oct</option>
+                <option value="">Nov</option>
+                <option value="">Dec</option>
+            </select>
+            <select name="año" id="año">
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="" selected>2023</option>
+            </select>
+        </form>
+        <table>
+            <tr>
+                <td>M</td>
+                <td>T</td>
+                <td>W</td>
+                <td>T</td>
+                <td>F</td>
+                <td>S</td>
+                <td>S</td>
+            </tr>
+            <tr>
+                <td class="dayOff">26</td>
+                <td class="dayOff">27</td>
+                <td class="dayOff">28</td>
+                <td class="dayOff">29</td>
+                <td class="dayOff">30</td>
+                <td class="selectedDay roundLeft">1</td>
+                <td class="selectedDay roundRight">2</td>
+            </tr>
+            <tr>
+                <td class="selectedDay roundLeft">3</td>
+                <td class="selectedDay roundLeft roundRight holiday">4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td class="dayOff">1</td>
+                <td class="dayOff">2</td>
+                <td class="dayOff">3</td>
+                <td class="dayOff">4</td>
+                <td class="dayOff">5</td>
+                <td class="dayOff">6</td>
+            </tr>
+        </table>
+        <span>
+            <button>Back</button>
+            <button>Apply</button>
+        </span>
+    </div>
+</body>
+</html>
