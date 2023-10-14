@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0.785rem;
+  transition: all 0.3s ease-in-out;
+  border: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 0.785rem;
+  font-family: "RobotoRegular";
+  --blue: #0d6efd;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+  --dark: #292a2b;
+  --white: #fff;
+  --grey_light: #CCCCCC;
+}
+
+body{
+  background-color: var(--grey_light);
+}
+
+section{
+  padding: 3em 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  margin:0 auto;
+}
+
+.product{
+  width: 23%;
+  margin: 1em 1%;
+  text-align: center;
+  background-color: var(--white);
+}
+
+img{
+  max-width: 90%;
+  height: auto;
+}
+.content_product{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid var(--grey_light);
+  padding: 1em 0;
+}
+
+.name_product{
+  width: 50%;
+}
+
+.stars{
+  width: 48%;
+  text-align: right;
+  padding: 0 1.5em 0 0;
+  color: var(--orange);
+}
+
+h2{
+  font-size: 1.2rem;
+  padding: 0 1em;
+  text-align: left;
+}
+
+
+
+.col_product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1.5em 0;
+}
+
+.col_product > div {
+  width: 50%;
+}
+
+.price_product > div{
+  text-align: left;
+  padding: 0 0 0 1em;
+}
+
+.price_product div:first-child{
+  font-size: 1.5rem;
+}
+
+.price_product div:last-child{
+  font-size: 1.5rem;
+}
+
+.price_product > div a{
+  font-size: 1.1rem;
+  color: var(--green);
+  text-decoration: none;
+}
+
+.price_product > div a:hover{
+  color: var(--blue);
+}
+
+.button_buy{
+  text-align: right;
+}
+
+button{
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 0.8em 1em;
+  font-size: 1.2rem;
+  margin: 0 1em 0 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+button:hover{
+  background-color: #198754;
+}
+
+@media (max-width:1024px)
+{
+  .product{
+    width: 31.33%;
+  }
+}
+
+@media (max-width:768px)
+{
+  .product{
+    width: 48%;
+  }
+}
+
+@media (max-width:500px)
+{
+  .product{
+    width: 95%;
+    margin: 1em  auto;
+  }
+}

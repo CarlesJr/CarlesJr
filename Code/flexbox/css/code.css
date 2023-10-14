@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "RobotoRegular";
+  transition: all 0.3s ease-in-out;
+}
+
+:root {
+  background-color: #b1a7a6;
+  font-size: 0.785rem;
+  --background_black: #000;
+  --color_yellow: #ffb703;
+}
+
+body {
+  padding: 5em 0;
+}
+
+h1 {
+  margin: 0 0 1em;
+}
+
+div {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #000;
+  padding: 2em;
+  border-radius: 2em;
+  box-shadow: 0 0 5px #000;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+pre {
+  margin: 2em 0;
+  border-radius: 1em;
+  background-color: var(--background_black);
+}
+
+code {
+  color: var(--color_yellow);
+  font-size: 1.5rem;
+}
+
+@media (max-width: 550px) {
+  code {
+    font-size: 1.3rem;
+  }
+}
